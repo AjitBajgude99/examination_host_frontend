@@ -1,0 +1,11 @@
+<div *ngIf="isloggedIn==0">
+<app-login></app-login>
+</div>
+
+<div *ngIf="isloggedIn==1">
+  <app-student></app-student>
+  </div>
+
+  <div *ngIf="isloggedIn==2">
+    <app-trainer></app-trainer>
+    </div>
